@@ -5,7 +5,6 @@ The zeroth number in the fibonacci sequence is 0. The first number is 1
 Negative numbers should return None
 """
 
-
 def fibonacci(pos):
     if pos < 0:
         return None
