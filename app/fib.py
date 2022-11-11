@@ -6,13 +6,14 @@ Negative numbers should return None
 """
 
 def fibonacci(pos):
-  if pos < 0:
-    return None
-  return fibonacciHelp(pos)
+    if pos < 0:
+        return None
+    return fibonacciHelp(pos)
+
 
 def fibonacciHelp(position):
-  if(position <= 0):
-    return 0
-  if(position == 1 or position == 2):
-    return 1
-  return fibonacci(position - 1) + fibonacci(position - 2)
+    if position <= 0:
+        return 0
+    if position == 1 or position == 2:
+        return 1
+    return fibonacci(position - 1) + fibonacci(position - 2)
